@@ -5,17 +5,8 @@ import MapView, { Marker, Circle } from 'react-native-maps';
 import * as Location from 'expo-location';
 
 const customerLocations = [
-  { id: '30815', name: 'DİASA(MEHMET BARUN)', latitude: 40.03943295, longitude: 32.61510831 },
-  { id: '30817', name: 'DİLARA GIDA VE MEŞRUBAT BÜFESİ(SALİHA POLAT)', latitude: 39.97179181, longitude: 32.64747430 },
-  { id: '30832', name: 'FIRATCAN MAR.TUHAFİYE(TÜRKİLERİ POLAT)', latitude: 39.94366991, longitude: 32.65607990 },
-  { id: '30834', name: 'ABBASOĞULLARI TURZM HABİNŞ KUA GIDA MAD TİC.LTDŞTİ', latitude: 39.94498475, longitude: 32.65689600 },
-  { id: '30864', name: 'ÇAĞRICI BÜFE(CESUR DOĞAN ÇAĞRICI)', latitude: 39.94011263, longitude: 32.64522153 },
-  { id: '30866', name: 'YURTDAŞ BÜFE(ÖZGÜR YURTDAŞ)', latitude: 39.94247403, longitude: 32.61852977 },
-  { id: '30881', name: 'BEYDAĞ MARKET(YILMAZ DAĞ)', latitude: 39.94191016, longitude: 32.65213312 },
-  { id: '30883', name: 'TUĞBA MARKET(MUSTAFA KÜTÜK)', latitude: 39.94209939, longitude: 32.65388587 },
-  { id: '233986', name: 'B42 GIDA TİC.VE SAN.LTD.ŞTİ.', latitude: 37.99688850, longitude: 32.52485880 },
-  { id: '234045', name: 'ÇOKDOĞRUOL GIDA - ALİ OSMAN DOĞRUOL', latitude: 37.89148190, longitude: 32.50720300 },
-  { id: '234077', name: 'NUR MARKET - AHMET BAŞCI', latitude: 37.94504280, longitude: 32.50825750 },
+// Add the locations here in the following format
+// { id: '', name: '', latitude: , longitude: },
 ];
 
 const MapScreen = ({ route }) => {

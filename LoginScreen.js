@@ -4,7 +4,6 @@ import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 
 const users = [
   { username: 'YUSUF KOÇAK', password: 'yusuf123' },
-  { username: 'Boş_3', password: 'boş_123' },
   { username: 'ŞAMİL ÖZ', password: 'şamil123' },
   { username: 'MUSTAFA ASAN', password: 'mustafa123' },
   { username: 'NURİ BOSTAN', password: 'nuri123' },
